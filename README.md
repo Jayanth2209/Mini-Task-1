@@ -1,8 +1,13 @@
 # Task-1
 # Project 1 - Easy Soil Moisture Sensor Arduino 7 Segment Display :
+Purpose - Testing moisture content in a soil   
+Based on - Arduino   
 This is a fairly easy project to make. It's used to check the moisture content of the soil and display it on a 7-segment display using an Arduino Uno and a Soil Moisture sensor. Suitable wiring is done. To check the moisture content, the sensor is dipped into the soil and the display on the 7-segment display shows the moisture content in the soil.
 
-# Project 2 - Arduino Barometer :
+# Project 2 - Advanced Irrigation System :   
+Purpose - Automated Irrigation system to overcome over or under irrigation.   
+Based on - Arduino   
+This project deals with the building of an IoT based smart irrigation system by analyzing the soil parameters and weather. 
 
 # Project 3 - Raspberry Pi based Weather Station:
 This project is to build a compact weather station using a wireless Raspberry Pi Zero. They used AZ-Touch Pi0 kit for the display. It is made compatible with Pizero. Then the Raspbian image is copied into an SD card and is put into the Pizero. This Raspbian image is burned and a SSH connection is enabled and the details are entered. The Raspberry Pi is then rebooted. The weather station will be launched after rebooting.
@@ -13,4 +18,7 @@ This project is to build a No-Contact Infrared Thermometer using an Arduino Nano
 # Project 5 - DIY Hand Sanitizer Dispenser :
 This project is to build a Touch free Soap/Sanitizer dispenser using Arduino, an ultrasonic sensor and a servo motor. An IR Sensor could also be used but an ultrasonic sensor, though a bit expensive is more accurate. The servo motor and a copper wire are used to generate a downward force to push the sanitizer. The code is uploaded defining all the basic setups and then it is ready to use. All the components are packed properly. The sanitizer is pushed when a target is 10cm or closer to the sensor.
 
-# Project 6 - 
+# Project 6 - COVID 19 Real Time Data Monitoring using NodeMCU :
+This project is fairly simple to build. NodeMCU is an open source IoT platform built around ESP8266(wifi SoC). Using it we collect the statistics of COVID 19 and then it is displayed on the display attached. Suitable connections are made between the display and NodeMCU. The code includes libraries and lines for fetching the Covid data from a website and to display it on the screen.
+
+# Project 7 - 

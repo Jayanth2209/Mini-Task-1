@@ -32,7 +32,18 @@ This project uses NodeMCU ESP8266 and the sensors Pimoroni BME680 (to detect Hum
 # Project 7 - Easy Soil Moisture Sensor Arduino 7 Segment Display :
 Purpose - Testing moisture content in a soil   
 Based on - Arduino   
-This is a fairly easy project to make. It's used to check the moisture content of the soil and display it on a 7-segment display using an Arduino Uno and a Soil Moisture sensor. Suitable wiring is done. To check the moisture content, the sensor is dipped into the soil and the display on the 7-segment display shows the moisture content in the soil.
+This is a fairly easy project to make. It's used to check the moisture content of the soil and display it on a 7-segment display using an Arduino Uno and a Soil Moisture sensor. Suitable wiring is done. To check the moisture content, the sensor is dipped into the soil and the display on the 7-segment display shows the moisture content in the soil.   
+
+# Project 8 - Continuously Rotating Solar Motor :
+Purpose - A continuously rotating solar powered sphere   
+Topic - Electronics   
+This project uses A solar panel, a super capacitor, Hall sensor, Comparator, IC:XC 6206 LDO (driver IC) and Neodymium magnets. The solar panel charges the super capacitor via a low-dropout regulator. The Hall sensor detects the rotor magnet. The pulse passes through the pulse shaper, comparator and the driver IC and activates the pulse coil. Magnetic bearings are used to reduce the friction of the rotor shaft. Rotor is made from a styrofoam globe and has magnets placed around the middle. This is an efficient pulse motor driven by small and stable nanopower circuit.
+
+# Project 9 - Use a Stepper Motor as a Rotary Encoder :
+Purpose - Making a Rotary Encoder   
+Topic - Electronics
+A rotary encoder is a device that converts the angular position of a shaft to an analog or digital output used in automated machinery, position control, etc. This project uses a stepper motor (which generates electric pulses when rotated), but since it cannot generate enough voltage when rotated slowly, an amplifying circuit is required.    
+So the stepper motor is suitably connected to the Arduino through the amplifier and the code is uploaded. This circuit can now be used to control the brightness of LED connected to pin 'D13'by adjusting the duty cycle on the output pin with the rotary encoder.
 
 # Project 14 - Raspberry Pi based Weather Station:
 Purpose - To get the weather information   

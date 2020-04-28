@@ -75,4 +75,37 @@ Purpose - To keep track of the lockers
 Topic - IoT      
 This project is to build a module to monitor lockers using Bolt IoT device and an LDR. The resistance of LDR depends on the light intensity falling on it. When the locker is closed, it will be at a particular value. But, when it is opened, this value changes and hence this is used as a trigger to send an alert that the locker is open. The LDR are the Bolt module are suitably wired. The bolt device and the bolt cloud are connected. In the bolt cloud, the pins are configured and the code is imported as required. This configuration is deployed for setting-up a connecction between the device and the cloud. A third-party messaging app is used to send a text alert by collecting data from the bolt cloud. 
 
-# Project 16 - 
+# Project 16 - Automated Parking Lot using Arduino :
+Purpose - To build a parking lot model for a hassle free parking experience   
+Topic - Arduino    
+This project requires an Arduino, a Piezo sensor, an ultrasonic sensor, a Bluetooth module and servo motors (for the mechanical outputs). There will be a change in pressure when the car travels on the piezo sensor. The sensor sends this information to the Arduino  which in turn drives the servo motors to open the parking gates. The code consisting the required actions is uploaded to the Arduino.
+Ultrasonic sensors are placed at all the parking spots to identify whether it is occupied/free. This information of where the free spots are located is made available to the user through the Bluetooth module. 
+
+# Project 17 - Raspberry Pi Bluetooth Speaker Audio Streaming System :
+ Purpose - To make a wireless Bluetooth speaker that can take audio from your phone's mic and play it on a speaker/ can also stream live            music from phone's music gallery or YouTube.     
+ Topic - Raspberry Pi   
+ This project requires a Raspberry Pi with built-in WiFi and Bluetooth. The RPi takes the audio via bluetooth from the phone and then transfers it to its own analogue pin (TRRS pin). But this output signal will be weak and inaudible and hence need to be amplified. This is done using a PAM amplifier module and the audio comes out of the speakers. For setting up, the RPi and the audio device (phone) are paired over bluetooth and the audio device should also be selected as the input audio. To use the phone as a mic, a suitable app is installed on it and it can be streamed over RPi.
+ 
+# Project 18 - Sun Tracking Solar Panel :
+Purpose - A Solar Panel circuit to track the Sun and position the Solar Panels accordingly    
+Topic - Microcontrollers    
+This project consists of two LDR's, a solar panel, a servo motor and an ATmega328 Microcontroller. The components are connected according to the circuit diagram. LDR's resistance is inversely proportional to the light intensity falling on it. Two LDR's are placed at the two ends of the solar panel. So, the panel moves towards the side where the LDR has low resistance i.e. high intensity with the help of servo motor. The code defining this is uploaded to the ATmega238 using Arduino IDE.
+
+# Project 19 - Password Based Door Lock System :
+Purpose - A secure door unlocking system using a password    
+Topic - Microcontrollers    
+This project uses 8051 Microcontroller. A 4x4 Matrix Keypad is used to enter the password which is compared with the predefined password and the door unlocks when the passwords match. An LCD is used to display if the Password entered is wrong and a motor is used for opening the door. The Microcontroller, keypad, Motor driver, the LCD and DC motor are connected according to the circuit diagram. The code is compiled and uploaded. When the circuit is switched ON, it sends a command to display "enter password" on the LCD screen. Then the password is entered. When the passwords match, the microcontroller activates the motor driver, which in turn rotates the motor and opens the door.
+
+# Project 20 - Line Follower Robot :
+
+
+
+
+
+
+
+
+
+
+
+ 

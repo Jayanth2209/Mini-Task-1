@@ -41,7 +41,7 @@ This project uses A solar panel, a super capacitor, Hall sensor, Comparator, IC:
 
 # Project 9 - Use a Stepper Motor as a Rotary Encoder :
 Purpose - Making a Rotary Encoder   
-Topic - Electronics
+Topic - Electronics   
 A rotary encoder is a device that converts the angular position of a shaft to an analog or digital output used in automated machinery, position control, etc. This project uses a stepper motor (which generates electric pulses when rotated), but since it cannot generate enough voltage when rotated slowly, an amplifying circuit is required.    
 So the stepper motor is suitably connected to the Arduino through the amplifier and the code is uploaded. This circuit can now be used to control the brightness of LED connected to pin 'D13'by adjusting the duty cycle on the output pin with the rotary encoder.
 

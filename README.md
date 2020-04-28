@@ -24,7 +24,10 @@ Purpose - To monitor the location of some person/object
 Based on - Microcontrollers   
 This project is based around a GPS module (ATGM332D) and an ATSAMD21J18B Microcontroller. The circuit is powered by USB 5V source and the display is througha 0.96'OLED display. USART is used to communicate with the GPS module and SPI to communicate with the OLED. GPIO's are to control the LEDs. To get the location,date and time, they used GPRMC sentence (GPS NMEA sentence - To receive a GPS signal). This system takes 20-30 seconds in clear weather conditions to retreive the required information.
 
-# Project 6 - 
+# Project 6 - Inhouse IoT Air Quality Sensor :   
+Purpose - A device to monitor inhouse air conditions   
+Based on - IoT   
+This project uses NodeMCU ESP8266 and the sensors Pimoroni BME680 (to detect Humidity, Temperature, Pressure,etc.) and PMS5003 (to detect Air particle density). This device connects to your home network. Then the Arduino environment for the NodeMCU is built, all the required libraries are installed and the sensors are also included in the code. All the firmware is compiled and uploaded. The Web UI (User Interface) is uploaded and the sensors are added and configured. The system is rebooted and can now be used for sensing the air quality in a room.
 
 # Project 7 - Easy Soil Moisture Sensor Arduino 7 Segment Display :
 Purpose - Testing moisture content in a soil   

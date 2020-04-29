@@ -17,17 +17,20 @@ Purpose - Touch free Soap/Sanitizer dispendsing
 Based on - Arduino    
 This project is to build a Touch free Soap/Sanitizer dispenser using Arduino, an ultrasonic sensor and a servo motor. An IR Sensor could also be used but an ultrasonic sensor, though a bit expensive is more accurate. The servo motor and a copper wire are used to generate a downward force to push the sanitizer. The code is uploaded defining all the basic setups and then it is ready to use. All the components are packed properly. The sanitizer is pushed when a target is 10cm or closer to the sensor.    
 Project link : https://www.hackster.io/MissionCritical/diy-hand-sanitizer-dispenser-using-arduino-143de1   
-
+![](8251.gif)
 
 # Project 4 - COVID 19 Real Time Data Monitoring using NodeMCU :   
 Purpose - To get the statistics of Covid-19    
 Based on - NodeMCU    
-This project is fairly simple to build. NodeMCU is an open source IoT platform built around ESP8266(wifi SoC). Using it we collect the statistics of COVID 19 and then it is displayed on the display attached. Suitable connections are made between the display and NodeMCU. The code includes libraries and lines for fetching the Covid data from a website and to display it on the screen.
+This project is fairly simple to build. NodeMCU is an open source IoT platform built around ESP8266(wifi SoC). All the required libraries for fetching the data, for the LCD Display and for connecting to the server are included in the code. The module is connected to the Internet and the required URL is called through HTTP get request to fetch real-time data. The pins are configured in the code so as to display this data on the LCD display. All the suitable connections are made between the display and NodeMCU as per the circuit diagram.     
+Project link : https://www.hackster.io/AmardeepV/covid-19-real-time-data-monitoring-using-nodemcu-c17e77   
 
-# Project 5 - GPS Monitoring :
-Purpose - To monitor the location of some person/object    
-Based on - Microcontrollers   
-This project is based around a GPS module (ATGM332D) and an ATSAMD21J18B Microcontroller. The circuit is powered by USB 5V source and the display is througha 0.96'OLED display. USART is used to communicate with the GPS module and SPI to communicate with the OLED. GPIO's are to control the LEDs. To get the location,date and time, they used GPRMC sentence (GPS NMEA sentence - To receive a GPS signal). This system takes 20-30 seconds in clear weather conditions to retreive the required information.
+# Project 5 - Interfacing GPS with 8051 Microcontroller :   
+Purpose - To determine the location of a vehicle/person   
+Based on - Microcontrollers     
+GPS Module uses global positioning system which uses 24-32 satellites to provide location data.  It calculates the position by reading signals that are transmitted by these satellites. The raw data received is converted to suitable form for the user. The 8051 Microcontroller, LCD Display and the GPS module are connected as per the circuit diagram. The GPS receiver continuously transmits data as per NMEA standards using RS232 protocol. In NMEA format, the Latitude and longitude values are available in GPRMC sentence. The controller serially receives the data from the GPS module using UART protocol and these values are extracted from NMEA format and are displayed on the LCD.   
+Project link : https://www.electronicshub.org/interfacing-gps-8051-microcontroller/    
+
 
 # Project 6 - Inhouse IoT Air Quality Sensor :   
 Purpose - A device to monitor inhouse air conditions   

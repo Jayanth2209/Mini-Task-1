@@ -17,7 +17,7 @@ Purpose - Touch free Soap/Sanitizer dispendsing
 Based on - Arduino    
 This project is to build a Touch free Soap/Sanitizer dispenser using Arduino, an ultrasonic sensor and a servo motor. An IR Sensor could also be used but an ultrasonic sensor, though a bit expensive is more accurate. The servo motor and a copper wire are used to generate a downward force to push the sanitizer. The code is uploaded defining all the basic setups and then it is ready to use. All the components are packed properly. The sanitizer is pushed when a target is 10cm or closer to the sensor.    
 Project link : https://www.hackster.io/MissionCritical/diy-hand-sanitizer-dispenser-using-arduino-143de1   
-![](8251.gif)
+
 
 # Project 4 - COVID 19 Real Time Data Monitoring using NodeMCU :   
 Purpose - To get the statistics of Covid-19    

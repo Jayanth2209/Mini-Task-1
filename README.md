@@ -1,18 +1,23 @@
 # Task-1
+# Mini Task-1 
 # Project 1 - Advanced Irrigation System :    
 Purpose - Automated Irrigation system to overcome over or under irrigation.   
 Based on -  IoT   
-This project deals with the building of an IoT based smart irrigation system by analyzing the soil parameters and weather conditions. Sensors are used to detect various parameters like pressure, humidity, temperature,pH,etc. This data from the Arduino is gathered using an IoT module. The system is trained based on this data and then is tested for accuracy. So, this system uses machine learning to compare real values obtained from sensors with a test value that has been fed to the machine for analysis. The results decide whether irrigation should be done or not. This system has many other cool features like Alert Control (reporting the changes to the user through email or a text message) and Anomaly detection (identifying unexpected events by defining some threshold values).
+This project deals with the building of an IoT based smart irrigation system by analyzing the soil parameters and weather conditions. Sensors are used to detect various parameters like pressure, humidity, temperature,pH,etc. This data from the Arduino is gathered using an IoT module. The system is trained based on this data and then is tested for accuracy. So, this system uses machine learning to compare real values obtained from sensors with a test value that has been fed to the machine for analysis. The results decide whether irrigation should be done or not. This system has many other cool features like Alert Control (reporting the changes to the user through email or a text message) and Anomaly detection (identifying unexpected events by defining some threshold values).   
+Project link : https://www.hackster.io/narangrahulrahul8/advanced-irrigation-system-eeb622   
 
 # Project 2 - DIY GY-906 Infrared Thermometer using Arduino:
 Purpose - No contact Temperature sensing      
 Based on - Arduino     
-This project is to build a No-Contact Infrared Thermometer using an Arduino Nano and a GY-906 Temperature Sensor to measure the surface temperature of an object and display on an OLED display. All the components are assembled as per the circuit diagram. The MLX90614 sensor collects the data and the installed program continuously reads this data and displays the temperature on the OLED screen when the switch is touched. The casing for the thermometer components is obtained by 3D-Printing. These thermometers are now in great use, in the first line of detection of corona virus.
+This project is to build a No-Contact Infrared Thermometer using an Arduino Nano and a GY-906 Temperature Sensor to measure the surface temperature of an object and display on an OLED display. All the components are assembled as per the circuit diagram. The MLX90614 sensor collects the data and the installed program continuously reads this data and displays the temperature on the OLED screen when the switch is touched. The casing for the thermometer components is obtained by 3D-Printing. These thermometers are now in great use, in the first line of detection of corona virus.   
+Project link : https://www.hackster.io/hardyedela/diy-arduino-gy-906-infrared-thermometer-5881aa   
 
-# Project 3 - DIY Hand Sanitizer Dispenser :
+# Project 3 - DIY Hand Soap/Sanitizer Dispenser :
 Purpose - Touch free Soap/Sanitizer dispendsing      
 Based on - Arduino    
-This project is to build a Touch free Soap/Sanitizer dispenser using Arduino, an ultrasonic sensor and a servo motor. An IR Sensor could also be used but an ultrasonic sensor, though a bit expensive is more accurate. The servo motor and a copper wire are used to generate a downward force to push the sanitizer. The code is uploaded defining all the basic setups and then it is ready to use. All the components are packed properly. The sanitizer is pushed when a target is 10cm or closer to the sensor.
+This project is to build a Touch free Soap/Sanitizer dispenser using Arduino, an ultrasonic sensor and a servo motor. An IR Sensor could also be used but an ultrasonic sensor, though a bit expensive is more accurate. The servo motor and a copper wire are used to generate a downward force to push the sanitizer. The code is uploaded defining all the basic setups and then it is ready to use. All the components are packed properly. The sanitizer is pushed when a target is 10cm or closer to the sensor.    
+Project link : https://www.hackster.io/MissionCritical/diy-hand-sanitizer-dispenser-using-arduino-143de1   
+![](8251.gif)
 
 # Project 4 - COVID 19 Real Time Data Monitoring using NodeMCU :   
 Purpose - To get the statistics of Covid-19    

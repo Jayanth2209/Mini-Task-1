@@ -51,7 +51,7 @@ Purpose - A continuously rotating solar powered sphere
 Topic - Electronics   
 This project uses A solar panel, a super capacitor, Hall sensor, Comparator, IC:XC 6206 LDO (driver IC) and Neodymium magnets. The solar panel charges the super capacitor via a low-dropout regulator. The Hall sensor detects the rotor magnet. The pulse passes through the pulse shaper, comparator and the driver IC and activates the pulse coil. Magnetic bearings are used to reduce the friction of the rotor shaft. Rotor is made from a styrofoam globe and has magnets placed around the middle. This is an efficient pulse motor driven by small and stable nanopower circuit.    
 Project link : https://www.instructables.com/id/Continuously-Rotating-Solar-Motor/     
-![](F0PRTKOK76CZKIG.LARGE)    
+![](F0PRTKOK76CZKIG.LARGE.jpg)    
 
 # Project 9 - Use a Stepper Motor as a Rotary Encoder :
 Purpose - Using a stepper motor as a rotary encoder to control the brightness of an LED   
@@ -78,7 +78,7 @@ Purpose - To make a detector that can detect metal objects upto 25cm or closer
 Topic - Electronics    
 This project uses two D-shaped coils, A Signal generator module, a Mofset transistor and required capacitors and resistors. The detector contains two coils - one transmitter and one receiver. The resonant frequency of the transmitter coil is calculated and it is set in the signal generator with 50% duty cycle. The potentiometer is used to control the current through the transmitter coil. The receiver coil connects to the microphone and the smartphone according to the circuit diagram. The phones output is amplified and we hear a beep when the metal is detected by interfering with the magnetic field through the coil.      
 Project link : https://www.hackster.io/mircemk/diy-sensitive-vlf-metal-detector-with-smartphone-6da01f     
-![](_3dfmUntSay.jpg)   
+![](_3dfmUntSay.jpeg)   
 
 # Project 13 - Gesture Controlled Wheelchair :
 Purpose - To control wheelchair movements thorugh pre-defined hand gestures   
@@ -130,7 +130,7 @@ Purpose - To design a model to visually see your heartbeat
 Topic - Arduino    
 This project uses an Arduino Nano for driving the actuator and a MAX30100 Pulse Oximeter SpO2 and Heart-rate sensor module to sense the required  . The physical parts required to build a model of the heart are all 3D printed and suitably assembled. The sensor, The Arduino and the servo are connected as per the circuit diagram and the circuit is powered through a 5V battery. The necessary libraries required for the sensor are installed and the code with all the pin configurations is compiled and uploaded. The complete assembly is done and the visualiszer is powered using a power bank (5V). Now, when we place our finger on the sensor, we can see the heartbeat visually.    
 Project link : https://www.instructables.com/id/Heart-Visualizer-See-You-Heart-Beat/     
-![](F5E8H2MK8OO5TEE.LARGE)    
+![](F5E8H2MK8OO5TEE.LARGE.jpg)    
 
 # Project 21 -  Voltmeter using 8051 Microcontroller : 
 Purpose - To make a simple 0-5V Voltmeter    

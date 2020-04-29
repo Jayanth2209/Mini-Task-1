@@ -10,7 +10,8 @@ Project link : https://www.hackster.io/narangrahulrahul8/advanced-irrigation-sys
 Purpose - No contact Temperature sensing      
 Topic - Arduino     
 This project is to build a No-Contact Infrared Thermometer using an Arduino Nano and a GY-906 Temperature Sensor to measure the surface temperature of an object and display on an OLED display. All the components are assembled as per the circuit diagram. The MLX90614 sensor collects the data and the installed program continuously reads this data and displays the temperature on the OLED screen when the switch is touched. The casing for the thermometer components is obtained by 3D-Printing. These thermometers are now in great use, in the first line of detection of corona virus.   
-Project link : https://www.hackster.io/hardyedela/diy-arduino-gy-906-infrared-thermometer-5881aa   
+Project link : https://www.hackster.io/hardyedela/diy-arduino-gy-906-infrared-thermometer-5881aa     
+![](8271.jpg)   
 
 # Project 3 - DIY Hand Soap/Sanitizer Dispenser :
 Purpose - Touch free Soap/Sanitizer dispendsing      
@@ -49,7 +50,8 @@ Project link : https://www.hackster.io/mrtejaslol/wifi-hacking-using-esp8266-5ed
 Purpose - A continuously rotating solar powered sphere   
 Topic - Electronics   
 This project uses A solar panel, a super capacitor, Hall sensor, Comparator, IC:XC 6206 LDO (driver IC) and Neodymium magnets. The solar panel charges the super capacitor via a low-dropout regulator. The Hall sensor detects the rotor magnet. The pulse passes through the pulse shaper, comparator and the driver IC and activates the pulse coil. Magnetic bearings are used to reduce the friction of the rotor shaft. Rotor is made from a styrofoam globe and has magnets placed around the middle. This is an efficient pulse motor driven by small and stable nanopower circuit.    
-Project link : https://www.instructables.com/id/Continuously-Rotating-Solar-Motor/    
+Project link : https://www.instructables.com/id/Continuously-Rotating-Solar-Motor/     
+![](F0PRTKOK76CZKIG.LARGE)    
 
 # Project 9 - Use a Stepper Motor as a Rotary Encoder :
 Purpose - Using a stepper motor as a rotary encoder to control the brightness of an LED   
@@ -62,7 +64,8 @@ Project link : https://www.instructables.com/id/Use-a-Stepper-Motor-As-a-Rotary-
 Purpose - To make a security camera    
 Topic - IoT    
 This project uses Raspberry Pi 3, Pi Camera and a PIR motion sensor. The camera is connected to the camera module port of the Pi and the PIR Motion Sensor is connected to the Pi's GPIO pins accordingly. An SD card is also inserted. Pi is turned in and the internet connectivity is checked. Then the camera is enabled in the interfacing options. Picamera module is also installed. All the required modules are created and the codes too. Then the server can be started and through the IP address, the webpage can be accessed and the camera can be controlled remotely.    
-Project link : https://www.instructables.com/id/Raspberry-Pi-Security-Camera-1/    
+Project link : https://www.instructables.com/id/Raspberry-Pi-Security-Camera-1/      
+![](8272.gif)    
 
 # Project 11 - Reading text files from an SD card using Arduino :
 Purpose - To read and display the text from a text file stored in an SD Card    
@@ -74,7 +77,8 @@ Project link : https://www.hackster.io/millerman4487/reading-text-files-from-an-
 Purpose - To make a detector that can detect metal objects upto 25cm or closer   
 Topic - Electronics    
 This project uses two D-shaped coils, A Signal generator module, a Mofset transistor and required capacitors and resistors. The detector contains two coils - one transmitter and one receiver. The resonant frequency of the transmitter coil is calculated and it is set in the signal generator with 50% duty cycle. The potentiometer is used to control the current through the transmitter coil. The receiver coil connects to the microphone and the smartphone according to the circuit diagram. The phones output is amplified and we hear a beep when the metal is detected by interfering with the magnetic field through the coil.      
-Project link : https://www.hackster.io/mircemk/diy-sensitive-vlf-metal-detector-with-smartphone-6da01f    
+Project link : https://www.hackster.io/mircemk/diy-sensitive-vlf-metal-detector-with-smartphone-6da01f     
+![](_3dfmUntSay.jpg)   
 
 # Project 13 - Gesture Controlled Wheelchair :
 Purpose - To control wheelchair movements thorugh pre-defined hand gestures   
@@ -105,13 +109,15 @@ Ultrasonic sensors are placed at all the parking spots to identify whether it is
  Purpose - To make a wireless Bluetooth speaker that can take audio from your phone's mic and play it on a speaker/ can also stream live            music from phone's music gallery or YouTube.     
  Topic - Raspberry Pi   
  This project requires a Raspberry Pi with built-in WiFi and Bluetooth. The RPi takes the audio via bluetooth from the phone and then transfers it to its own analogue pin (TRRS pin). But this output signal will be weak and inaudible and hence need to be amplified. This is done using a PAM amplifier module and the audio comes out of the speakers. For setting up, the RPi and the audio device (phone) are paired over bluetooth and the audio device should also be selected as the input audio. To use the phone as a mic, a suitable app is installed on it and it can be streamed over RPi.    
- Project link : https://www.electronicsforu.com/efy-guest-authors/raspberry-pi-bluetooth-speaker-audio-streaming    
+ Project link : https://www.electronicsforu.com/efy-guest-authors/raspberry-pi-bluetooth-speaker-audio-streaming     
+ ![](8273.jpg)    
  
 # Project 18 - Sun Tracking Solar Panel :
 Purpose - A Solar Panel circuit to track the Sun and position the Solar Panels accordingly    
 Topic - Microcontrollers    
 This project consists of two LDR's, a solar panel, a servo motor and an ATmega328 Microcontroller. The components are connected according to the circuit diagram. LDR's resistance is inversely proportional to the light intensity falling on it. Two LDR's are placed at the two ends of the solar panel. So, the panel moves towards the side where the LDR has low resistance i.e. high intensity with the help of servo motor. The code defining this is uploaded to the ATmega238 using Arduino IDE.    
-Project link : https://www.electronicshub.org/sun-tracking-solar-panel/    
+Project link : https://www.electronicshub.org/sun-tracking-solar-panel/      
+![](Sun-Tracking-Solar-Panel-Image-3.jpg)    
 
 # Project 19 - Password Based Door Lock System :
 Purpose - A secure door unlocking system using a password    
@@ -124,6 +130,7 @@ Purpose - To design a model to visually see your heartbeat
 Topic - Arduino    
 This project uses an Arduino Nano for driving the actuator and a MAX30100 Pulse Oximeter SpO2 and Heart-rate sensor module to sense the required  . The physical parts required to build a model of the heart are all 3D printed and suitably assembled. The sensor, The Arduino and the servo are connected as per the circuit diagram and the circuit is powered through a 5V battery. The necessary libraries required for the sensor are installed and the code with all the pin configurations is compiled and uploaded. The complete assembly is done and the visualiszer is powered using a power bank (5V). Now, when we place our finger on the sensor, we can see the heartbeat visually.    
 Project link : https://www.instructables.com/id/Heart-Visualizer-See-You-Heart-Beat/     
+![](F5E8H2MK8OO5TEE.LARGE)    
 
 # Project 21 -  Voltmeter using 8051 Microcontroller : 
 Purpose - To make a simple 0-5V Voltmeter    

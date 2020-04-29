@@ -152,7 +152,7 @@ Purpose - To use Alexa (voice commands) to control our TV
 Topic -  IoT and Arduino      
 This project uses an Arduino Nano 33 IoT and an IR receiver and transmitter. Arduino IoT Cloud platform allows us to build an IoT connected object. We also use the Official Arduino Alexa Skill in this project. The remote data is first captured with the IR receiver and the Arduino. The remote is pointed at the Arduino IR receiver and all the buttons corresponding to the required functions are pressed and the data is collected (comes on the Serial monitor). These are included in the code. We connect our Arduino board to the IoT Cloud and we also add the code (including the IR library). The IR data already collected is used and a function to send out IR commands and blink the built-in LED is written in the code and the corresponding actions are associated. Now, we have to download Amazon Alexa App and install Arduino Alexa Skill and enable it. Now, we are ready to control our TV by voice commands.    
 Project link : https://create.arduino.cc/projecthub/313276/full-control-of-your-tv-using-alexa-and-arduino-iot-cloud-9e7c4d    
-
+![](8268.gif)
 
 
 

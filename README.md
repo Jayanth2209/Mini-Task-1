@@ -42,7 +42,8 @@ Project link : https://www.hackster.io/mathertel/build-an-inhouse-iot-air-qualit
 Purpose - To make a WiFi jammer using ESP8266 (a Built-in WiFi SoC module)     
 Topic - Electronics    
 The 802.11 (WiFi is a term for certain types of WLAN that use 802.11 specifications) contains an alleged deauthentication outline. This is used to detach customers securely from a system. We require the MAC Address of the WiFi switch and of the customer gadget which we need to detach from the system. For this, it is sufficient to be in the WiFi range. All the required installations are done initially to setup ESP8266 Deauther (Deauther allows us to disconnect a device from a network feeding on the weakness of the 802.11 protocol). Now the ESP8266 is powered up. We scan for networks and then for client devices and now we are ready to go.    
-Project link : https://www.hackster.io/mrtejaslol/wifi-hacking-using-esp8266-5edb1e  
+Project link : https://www.hackster.io/mrtejaslol/wifi-hacking-using-esp8266-5edb1e      
+![](8270.gif)   
 
 # Project 8 - Continuously Rotating Solar Motor :
 Purpose - A continuously rotating solar powered sphere   
@@ -80,6 +81,7 @@ Purpose - To control wheelchair movements thorugh pre-defined hand gestures
 Topic - Arduino   
 This project deals with developing a prototype for a robotic wheelchair that can be controlled using simple hand gestures. It uses Arduino Uno and Nano and a Gyroscope (measures the angular position of the hand). A communication is first set-up between the Uno (Wheelchair module) and the Nano (the hand with the gyroscope). The Nano here behaves as the master and the Uno as the slave. The gestures (basically the angles) and the required movements are fed through the code to the Uno. So this gyroscope information is fed to the Uno through the Nano and the Uno performs the required action as per the code through the driver motors connected to it and gives out the required movement. We can add gestures for all the required mechanical movements.    
 Project link : https://www.hackster.io/patelmonil00/gesture-controlled-wheelchair-84a206     
+![](8269.gif)   
 
 # Project 14 - Raspberry Pi based Weather Station:
 Purpose - To get the weather information   

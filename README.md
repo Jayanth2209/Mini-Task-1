@@ -30,7 +30,7 @@ Purpose - To determine the location of a vehicle/person
 Based on - Microcontrollers     
 GPS Module uses global positioning system which uses 24-32 satellites to provide location data.  It calculates the position by reading signals that are transmitted by these satellites. The raw data received is converted to suitable form for the user. The 8051 Microcontroller, LCD Display and the GPS module are connected as per the circuit diagram. The GPS receiver continuously transmits data as per NMEA standards using RS232 protocol. In NMEA format, the Latitude and longitude values are available in GPRMC sentence. The controller serially receives the data from the GPS module using UART protocol and these values are extracted from NMEA format and are displayed on the LCD.   
 Project link : https://www.electronicshub.org/interfacing-gps-8051-microcontroller/    
-
+![](8255.gif)
 
 # Project 6 - Inhouse IoT Air Quality Sensor :   
 Purpose - A device to monitor inhouse air conditions   

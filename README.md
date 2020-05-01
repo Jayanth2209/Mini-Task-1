@@ -1,4 +1,3 @@
-# Task-1
 # Mini Task-1 
 # Project 1 - Advanced Irrigation System :    
 Purpose - Automated Irrigation system to overcome over or under irrigation.   
